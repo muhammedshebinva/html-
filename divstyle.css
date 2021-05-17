@@ -1,0 +1,23 @@
+.outerdiv{
+    width: 500px;
+    height: 200px;
+    background-color: indigo;
+
+    margin-left: 40px;
+    margin-top: 50px;
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+    border: 5px solid;
+    border-color: maroon;
+}
+#title1{
+    color: #fff;
+}
+
+.innerdiv{
+    background-color: mediumvioletred;
+    width: 100px;
+    height: 50px;
+}
