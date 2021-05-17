@@ -1,0 +1,15 @@
+button{
+    color: cornsilk;
+    background-color: blue;
+}
+
+#title2{
+    color: darkmagenta;
+}
+#title3{
+    background-color: darkred;
+    color: ghostwhite;
+}
+.content{
+    color: gold;
+}
