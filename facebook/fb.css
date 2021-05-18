@@ -1,0 +1,145 @@
+.left-section{
+    background-color:#fff;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.right-section{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #fff;
+}
+body{
+    margin: 0%;
+}
+.logo-section{
+    width: 564px;
+    height: 300px;
+    float: right;
+    margin-top: 200px;
+}
+.logo{
+    width: 306px;
+}
+.logo-content{
+    padding-left: 30px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 0%
+}
+
+.login-section{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 148px;
+    padding: 20px 0 30px;
+    width: 396px;
+}
+
+.email{
+    padding-left: 15px;
+}
+.email-box{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    
+
+    
+}
+
+.password{
+    padding-left: 15px;
+}
+.password-box{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+}
+
+.login-btn{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 366px;
+
+    color: #fff;
+    font-weight: bold;
+
+
+}
+.login-btn:hover{background-color: #4267b2;}
+.button{
+    padding-top: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+
+}
+.forgote-link{
+    color: #1877f2;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+.forgote-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    
+    margin-top: 30px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    text-align: center;   
+}
+
+.create-btn{
+padding-left: 102px;
+margin-top: 30px;
+}
+.crt-btn{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+
+    color: #fff;
+    background-color:  #42b72a;
+    font-weight: bold;
+}
+.footer{
+    padding-left: 30px;
+}
+.crtpage-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+.p-tag{
+    font-size: 17px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
