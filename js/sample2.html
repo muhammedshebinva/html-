@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button onclick="display()">Click</button>
+    <h1 id="display-head"></h1>
+
+    <input type="text" id="alert-text">
+    <button onclick="display2()">alert button</button>
+
+    <button onclick="alert('Hello\nHow are you?')">try it</button>
+
+    <script>
+        function display(){
+            var text=document.getElementById("inp").value
+            document.getElementById("display-head").innerHTML=text
+            window.alert('Hello\nHow are you?')
+        }
+
+        function display2(){
+            var alerttext=document.getElementById("alert-text").value
+            if(alerttext=="shebin"){
+                alert("hello Master")
+            }
+           
+            
+        }
+    </script>
+</body>
+</html>
+

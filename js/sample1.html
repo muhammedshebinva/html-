@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js learning</title>
+</head>
+<body>
+    
+    <button onclick="display()">Click me</button>
+
+    <script>
+        function display(){
+            console.log("button cliked")
+
+            var num1=10;
+            var num2=20
+            var sum=num1+num2
+            console.log("sum="+sum)
+
+            var c=4;
+            var c=5
+            console.log("c="+c)
+
+            let b=4;
+            b=6
+            console.log("b="+b)
+
+            const e=10
+            console.log("e="+e)
+
+            if(e%2==0){
+                console.log("number in e is even")
+            }else{
+                console.log("number in e is odd")
+            }
+
+            for(var i=0; i<5; i++){
+                console.log(i)
+            }
+
+            var arr=["apple","orange","mango","grap"]
+            console.log("array="+arr)
+            console.log(arr[1])
+
+            var objectsample={
+                name:"lolan",
+                age:26,
+                place:"waayanad"
+            }
+            console.log(objectsample)
+            console.log("name:"+objectsample.name)
+
+            var persons=[
+                {name:shebin ,age=19,palce=wayanad},
+                {name:adhil,age=15,palce=calicut}
+            ]
+
+            console.log(persons)
+            console.log(persons[0].name)
+        }
+    </script>
+
+</body>
+</html>
