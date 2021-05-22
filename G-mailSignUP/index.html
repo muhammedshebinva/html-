@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-mail Create account</title>
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-body">
+        <div class="signup-body">
+            <div class="left-section">
+
+                <p id="google-logo">
+                    <span style='color: blue'>G</span>
+                    <span style='color: red'>o</span>
+                    <span style='color: yellow'>o</span>
+                    <span style='color: blue'>g</span>
+                    <span style='color: green'>l</span>
+                    <span style='color: red'>e</span>
+                  </p>
+
+                  <p id="heading">Create your Google Account</p>
+                <form class="signup-form">
+
+                    <input class="input-field" type="text" placeholder="First name">
+                    <input class="input-field" type="text" placeholder="Last name">
+                    <br>
+                    <input id="uname-field" type="text" placeholder="User name">
+
+                    <div class="inp-message">You can use letters, numbers &amp; periods</div>
+
+                    <button class="use-email-btn">
+                        <span class="use-email-btn-text">Use my current email address instead</span>
+                    </button>
+
+                    <div class="password-section">
+                    <input id="password-inp" class="input-field" type="password" placeholder="Password">
+                    <input id="confirm-password" class="input-field" type="password" placeholder="confirm">
+                    </div>
+
+                    <div class="inp-message">Use 8 or more characters with a mix of letters, numbers & symbols</div>
+
+                    <div class="show-section">
+                        <div id="check-box">
+                            <input class="show-password" type="checkbox" onclick="showPassword()">
+                        </div>
+                        <div id="check-box-message">
+                            <p>Show Password</p>
+                        </div>
+
+                    
+                     </div>
+                     <br>
+                     <br>
+
+                     <div class="footer">
+                         <div class="signin-btn-div">
+                            <button class="signin-btn"><span class="signin-btn-text">sign in insted</span>
+                            </button>
+                         </div>
+
+                         <div class="next-btn-div">
+                             <button class="next-btn">Next</button>
+                         </div>
+                     </div>
+                
+                </form>
+            </div>
+            <div class="right-section">
+
+                <div class="image-section">
+                    <img class="image" src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" width="244" height="244">
+
+                    <figcaption class="caption">One account. All of Google <br> working for you.</figcaption>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
