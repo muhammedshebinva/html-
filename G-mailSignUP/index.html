@@ -23,12 +23,12 @@
                   </p>
 
                   <p id="heading">Create your Google Account</p>
-                <form class="signup-form">
+                <form id="signup-form">
 
-                    <input class="input-field" type="text" placeholder="First name">
-                    <input class="input-field" type="text" placeholder="Last name">
+                    <input name="fname" class="input-field" type="text" placeholder="First name">
+                    <input name="lname" class="input-field" type="text" placeholder="Last name">
                     <br>
-                    <input id="uname-field" type="text" placeholder="User name">
+                    <input name="Uname" id="uname-field" type="text" placeholder="User name">
 
                     <div class="inp-message">You can use letters, numbers &amp; periods</div>
 
@@ -37,8 +37,8 @@
                     </button>
 
                     <div class="password-section">
-                    <input id="password-inp" class="input-field" type="password" placeholder="Password">
-                    <input id="confirm-password" class="input-field" type="password" placeholder="confirm">
+                    <input name="password" id="password-inp" class="input-field" type="password" placeholder="Password">
+                    <input name="password_confirm" id="confirm-password" class="input-field" type="password" placeholder="confirm">
                     </div>
 
                     <div class="inp-message">Use 8 or more characters with a mix of letters, numbers & symbols</div>
@@ -63,7 +63,8 @@
                          </div>
 
                          <div class="next-btn-div">
-                             <button class="next-btn">Next</button>
+                             <button type="submit" form="signup-form" class="next-btn" onclick="next()">Next</button>
+                             
                          </div>
                      </div>
                 
@@ -83,6 +84,9 @@
         </div>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
 
     <script src="script.js"></script>
 </body>

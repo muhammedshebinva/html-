@@ -14,3 +14,28 @@ function showPassword() {
         y.type="password"
     }
   }
+
+  $(document).ready(function(){
+    $('#signup-form').validate({
+      rules:{
+        fname:{
+          required:true,
+          
+        },
+        lname:{
+          required:true,
+        },
+        password:{
+          required:true,
+          minlength:8
+
+        },
+        password_confirm:{
+          required:true,
+          minlength:8,
+          equalTo: "#password-inp"
+        }
+
+      }
+    })
+  })
